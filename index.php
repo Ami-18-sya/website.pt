@@ -1,7 +1,7 @@
 <?php
 
-include_once "./config/database.php";
-$name = "Ami Natus Syadiah";
+/*include_once "./config/database.php";
+$name = "Ami Natus Syadiah";*/
 
 ?>
 
@@ -20,5 +20,5 @@ $name = "Ami Natus Syadiah";
    <title>Website</title>
 </head>
 <body>
-  
+  <h1>HALAW</h1>
 </body>
