@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
@@ -104,6 +104,60 @@
                <img src="./background.jpg" alt="" class="w-100 h-100 rounded-circle">
             </div>
          </div>
+      </div>
+   </div>
+   <div id="service.section">
+      <div class="container px-5">
+         <div id="service-title" class="row">
+            <div class="col-12 d-flex justify-content-center mb-5">
+               <h5 class="fs-3 border-1 border-bottom border-black pb-3 px-4 fw-medium">WHAT WE OFFER</h5>
+            </div>
+         </div>
+         <div class="row px-5">
+            <div class="col-12">
+               <p class="text-center">WE CAN OFFER OUR CAPABILITY, TEAM WORK AND EXPERIENCES TO MANAGE ANY CONSTRUCTION WORKS FOR CIVIL, STRUCTURE, MECHANICAL, PIPING, TANK AND SOME ELECTRICAL WORKS</p>
+            </div>
+         </div>
+         <div class="row px-5">
+            <div class="col-4">
+               <img src="./background.jpg" alt="" class="w-100" height="160px">
+               <h6 class="fs-4 text-center mb-4 mt-1">Fabrication</h6>
+               <p class="text-center">We have a workshop for fabrication with best production capacity. We can work on steel fabrication, plates and tanks</p>
+            </div>
+            <div class="col-4">
+               <img src="./background.jpg" alt="" class="w-100" height="160px">
+               <h6 class="fs-4 text-center mb-4 mt-1">Fabrication</h6>
+               <p class="text-center">We have a workshop for fabrication with best production capacity. We can work on steel fabrication, plates and tanks</p>
+            </div>
+            <div class="col-4">
+               <img src="./background.jpg" alt="" class="w-100" height="160px">
+               <h6 class="fs-4 text-center mb-4 mt-1">Fabrication</h6>
+               <p class="text-center">We have a workshop for fabrication with best production capacity. We can work on steel fabrication, plates and tanks</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="footer" style="background-color:blue;" class="text-white">
+      <div class="container px-5">
+         <div class="row py-4 justify-content-center">
+            <div class="col-5 d-flex justify-content-center flex-column align-items-start">
+               <h5>PT. Gemilang Karya Agri</h5>
+               <span>Jl. Boulevard Blok A1 No.43 Komplek Taman Cilegon Indah, Kel.Sukmajaya, Kec.Jombang Kota Cilegon 42422</span>
+               <span>Email : pt.gka@gmail.com</span>
+               <span>Telepon : 08123456789</span>
+            </div>
+            <div class="col-2 d-flex justify-content-center flex-column align-items-start">
+               <h5>Web Service</h5>
+               <a href="#" class="text-decoration-none text-white">Home</a>
+               <a href="#" class="text-decoration-none text-white">About Us</a>
+               <a href="#" class="text-decoration-none text-white">Product</a>
+               <a href="#" class="text-decoration-none text-white">Documentation</a>
+               <a href="#" class="text-decoration-none text-white">Contact</a>
+            </div>
+         </div>
+      </div>
+      <div id="copyright" class="text-center py-2" style="background-color:blue;">
+         PT. Gemilang Karya Agri © 2024
       </div>
    </div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
