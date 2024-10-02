@@ -79,7 +79,7 @@
          </div>
       </div>
    </div>
-   <div id="about-section" style="height: 100dvh;">
+   <div id="about-section" class="py-4">
       <div class="container">
          <div id="about-title" class="d-flex justify-content-center mb-5">
             <h5 class="fs-3 border-1 border-bottom border-black pb-3 px-4 fw-medium">ABOUT US</h5>
