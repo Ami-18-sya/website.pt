@@ -11,34 +11,13 @@
 
 <body>
    <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg bg-primary">
-         <div class="container-fluid px-4 py-1">
-            <h1 class="navbar-brand fs-4" href="#">LOGO PT GKA</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-               <ul class="navbar-nav">
-                  <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Product</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Documentation</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Contact</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </nav>
+      
+      <?php
 
+      include "./navbar.php"
+
+      ?>
+      
       <div class="carousel-wrapper" style="height: 600px; overflow: hidden;">
          <div id="carouselExample" class="carousel slide h-100" data-bs-ride="carousel">
             <div class="carousel-inner">
