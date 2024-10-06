@@ -1,3 +1,9 @@
+<?php
+
+$url_path = $_SERVER["REQUEST_URI"];
+
+?>
+
 <nav class="navbar navbar-expand-lg bg-primary">
    <div class="container-fluid px-4 py-1">
       <h1 class="navbar-brand fs-4" href="#">logo PT GKA</h1>
@@ -8,18 +14,22 @@
          <ul class="navbar-nav">
             <li class="nav-item">
                <a class="nav-link active" aria-current="page" href="#">Home</a>
+               <a class="nav-link" aria-current="page" href="./index.php">Home</a>
             </li>
             <li class="nav-item">
                <a class="nav-link" href="#">About Us</a>
+               <a class="nav-link" href="./index.php#about-section">About Us</a>
             </li>
             <li class="nav-item">
                <a class="nav-link" href="#">Product</a>
+               <a class="nav-link <?= $url_path == "/product.php" ? "active" : "" ?>" href="./product.php">Product</a>
             </li>
             <li class="nav-item">
                <a class="nav-link" href="#">Documentation</a>
             </li>
             <li class="nav-item">
                <a class="nav-link" href="#">Contact</a>
+               <a class="nav-link <?= $url_path == "/product.php" ? "active" : "" ?>" href="./contact.php">Contact</a>
             </li>
          </ul>
       </div>
