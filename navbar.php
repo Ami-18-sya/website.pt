@@ -4,7 +4,7 @@ $url_path = $_SERVER["REQUEST_URI"];
 
 ?>
 
-<nav class="navbar navbar-expand-lg bg-primary">
+<nav class="navbar navbar-expand-lg bg-primary fixed-top">
    <div class="container-fluid px-4 py-1">
       <h1 class="navbar-brand fs-4" href="#">logo PT GKA</h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,10 @@ $url_path = $_SERVER["REQUEST_URI"];
                <a class="nav-link <?= $url_path == "/product.php" ? "active" : "" ?>" href="./product.php">Product</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="#">Documentation</a>
+               <a class="nav-link <?= $url_path == "/career.php" ? "active" : "" ?>" href="./career.php">Career</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link <?= $url_path == "/documentation.php" ? "active" : "" ?>" href="./documentation.php">Documentation</a>
             </li>
             <li class="nav-item">
                <a class="nav-link <?= $url_path == "/product.php" ? "active" : "" ?>" href="./contact.php">Contact</a>

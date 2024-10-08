@@ -9,7 +9,7 @@ include "./header.php"
       include "./navbar.php"
 
       ?>
-      <h1>Ini halaman untuk project</h1>
+      <h1>Ini halaman untuk documentation</h1>
    </div>
 </body>
 
