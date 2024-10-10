@@ -9,8 +9,12 @@ include "./header.php"
       include "./navbar.php"
 
       ?>
-      <div id="hero-section">
-         <img src="./background.jpg" alt="" width="100%" style="height: 100vh;">
+      <div id="hero-section" class="w-100 d-flex justify-content-center" style="height: 100hv;">
+         <img src="./background.jpg" alt="" width="100%" style="height: 100%;" class="position-absolute">
+      </div>
+      <div class="position-relative w-25 d-flex justify-content-center align-items-center flex-column">
+         <h2 class="border-button border-white border-dark text-center text-white fs-1 w-100">CONTACT US</h2>
+         <s class="btn btn-primary" style="width: fit-content;" href="contact-section">HELP</s>
       </div>
       <div class="contact-section">
          <div class="container py-5">
@@ -78,7 +82,7 @@ include "./header.php"
                      <h2 class="fw-bold">KANTOR</h2>
                   </div>
                   <div class="col-12">
-                     <p>Jl. RE Martadinata Link.Gerem Raya RT03/04 Kel. Gerem Kec. Gerogol Kota Cilegon - BANTEN Kode Pos 42438</p>
+                     <p>Jl. Boulevard Blok A1 No.43 Komplek Taman Cilegon Indah, Kel.Sukmajaya, Kec.Jombang Kota Cilegon 42422</p>
                   </div>
                   <div class="col-12">
                      <p>example@example.com</p>
