@@ -9,12 +9,12 @@ include "./header.php"
       include "./navbar.php"
 
       ?>
-      <div id="hero-section" class="w-100 d-flex justify-content-center" style="height: 100hv;">
+      <div id="hero-section" class="w-100 d-flex justify-content-center" style="height: 100vh;">
          <img src="./background.jpg" alt="" width="100%" style="height: 100%;" class="position-absolute">
+         <div class="position-relative w-25 d-flex justify-content-center align-items-center flex-column">
+         <h2 class="border-bottom border-white text-center text-white fs-1 w-100">CONTACT US</h2>
+         <a class="btn btn-primary" style="width: fit-content;" href="#contact-section">HELP</a>
       </div>
-      <div class="position-relative w-25 d-flex justify-content-center align-items-center flex-column">
-         <h2 class="border-button border-white border-dark text-center text-white fs-1 w-100">CONTACT US</h2>
-         <s class="btn btn-primary" style="width: fit-content;" href="contact-section">HELP</s>
       </div>
       <div class="contact-section">
          <div class="container py-5">
