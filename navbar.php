@@ -22,9 +22,6 @@ $url_path = $_SERVER["REQUEST_URI"];
                <a class="nav-link <?= $url_path == "/product.php" ? "active" : "" ?>" href="./product.php">Product</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link <?= $url_path == "/career.php" ? "active" : "" ?>" href="./career.php">Career</a>
-            </li>
-            <li class="nav-item">
                <a class="nav-link <?= $url_path == "/documentation.php" ? "active" : "" ?>" href="./documentation.php">Documentation</a>
             </li>
             <li class="nav-item">
