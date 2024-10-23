@@ -13,14 +13,14 @@ include "./header.php"
          <img src="./background.jpg" alt="" width="100%" style="height: 100%;" class="position-absolute">
          <div class="position-relative w-25 d-flex justify-content-center align-items-center flex-column">
          <h2 class="border-bottom border-white text-center text-white fs-1 w-100">CONTACT US</h2>
-         <a class="btn btn-primary" style="width: fit-content;" href="#contact-section">HELP</a>
+         <a class="btn btn-primary" style="width: fit-content;" href="#contact-section">MORE</a>
       </div>
       </div>
       <div class="contact-section">
          <div class="container py-5">
             <div class="row">
                <div class="col-12 mb-4">
-                  <h6 class="text-center fs-1 fw-bold">KONTAK KAMI</h6>
+                  <h6 class="text-center fs-1 fw-bold">CONTACT US</h6>
                </div>
                <div class="col-12 col-md-6 pt-4">
                   <p class="fs-2 fw-semibold">Sampaikan pertanyaan, saran atau kritik melalui formulir berikut.</p>
@@ -79,7 +79,7 @@ include "./header.php"
                      </div>
                   </div>
                   <div class="col-12 pt-4">
-                     <h2 class="fw-bold">KANTOR</h2>
+                     <h2 class="fw-bold">COMPANY</h2>
                   </div>
                   <div class="col-12">
                      <p>Jl. Boulevard Blok A1 No.43 Komplek Taman Cilegon Indah, Kel.Sukmajaya, Kec.Jombang Kota Cilegon 42422</p>

@@ -1,6 +1,26 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif ;
-}
+    font-family: "Poppins", sans-serif;
+ }
+ 
+ .navbar {
+    background-color: #2f3ec5;
+ }
+ 
+ #navbar-menu .nav-item .navbar-link {
+    color: white !important;
+    background-color: red !important;
+ }
+ 
+ /* Produk Style */
+ #product-section #product-list-wrapper .col-12 * {
+    transition: all .2s ease;
+ }
+ #product-section #product-list-wrapper .col-12:hover img {
+    transform: scale(115%);
+ }
+ #product-section #product-list-wrapper .col-12:hover h2 {
+    opacity: 0;
+ }
