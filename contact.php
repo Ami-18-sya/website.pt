@@ -16,11 +16,11 @@ include "./header.php"
          <a class="btn btn-primary" style="width: fit-content;" href="#contact-section">MORE</a>
       </div>
       </div>
-      <div class="contact-section">
+      <div id="contact-section">
          <div class="container py-5">
             <div class="row">
                <div class="col-12 mb-4">
-                  <h6 class="text-center fs-1 fw-bold">CONTACT US</h6>
+                  <h6 class="text-center fs-1 fw-bold" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">CONTACT US</h6>
                </div>
                <div class="col-12 col-md-6 pt-4">
                   <p class="fs-2 fw-semibold">Sampaikan pertanyaan, saran atau kritik melalui formulir berikut.</p>
