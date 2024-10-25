@@ -20,8 +20,8 @@ include "./header.php"
          <div class="container-fluid">
             <div class="row justify-content-center my-5 py-5">
                <div class="col-12 col-lg-6">
-                  <h1 class="text-center">Memberikan Produk Terbaik</h1>
-                  <p class="text-center fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias architecto est. Quis incidunt quibusdam, ullam vitae fugiat officia sapiente quas voluptatibus. Delectus fugit illum, autem a magni, error laudantium deserunt nam tempora vero alias. Dolores cum et optio quas.</p>
+                  <h1 class="text-center" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">Memberikan Produk Terbaik</h1>
+                  <p class="text-center fs-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias architecto est. Quis incidunt quibusdam, ullam vitae fugiat officia sapiente quas voluptatibus. Delectus fugit illum, autem a magni, error laudantium deserunt nam tempora vero alias. Dolores cum et optio quas.</p>
                </div>
             </div>
             <div class="row" id="product-list-wrapper">
