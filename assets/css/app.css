@@ -1,30 +1,80 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
- }
- 
- .navbar {
-    background-color: #2f3ec5;
- }
- 
- #navbar-menu .nav-item .nav-link {
-    color: whitesmoke !important;
- }
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
 
- #navbar-menu .nav-item .nav-link:hover {
-   color: blue !important;
+.navbar {
+   background-color: #2f3ec5;
+}
+
+#navbar-menu .nav-item .nav-link {
+   color: whitesmoke !important;
+}
+
+#navbar-menu .nav-item .nav-link:hover {
+   color: whitesmoke !important;
    text-decoration: underline;
 }
- 
- /* Produk Style */
- #product-section #product-list-wrapper .col-12 * {
-    transition: all .2s ease;
- }
- #product-section #product-list-wrapper .col-12:hover img {
-    transform: scale(115%);
- }
- #product-section #product-list-wrapper .col-12:hover h2 {
-    opacity: 0;
+
+/* Produk Style */
+#product-section #product-list-wrapper .col-12 * {
+   transition: all .2s ease;
+}
+#product-section #product-list-wrapper .col-12:hover img {
+   transform: scale(115%);
+}
+#product-section #product-list-wrapper .col-12:hover h2 {
+   opacity: 0;
+}
+
+.owl-carousel .item {
+   height: 400px;
+}
+
+.owl-carousel .item .img-wrapper {
+   width: 100%;
+   height: 100%;
+   transition: all .3s ease;
+   position: relative;
+   overflow: hidden;
+}
+
+.owl-carousel .item:hover .img-wrapper {
+   height: 200px;
+}
+
+.owl-carousel .item .img-wrapper img {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+.owl-carousel .item .text-wrapper {
+   opacity: 0;
+   transition: all .3s ease-in;
+   padding: 2px 8px;
+}
+
+.owl-carousel .item:hover .text-wrapper {
+   opacity: 1;
+}
+
+.owl-carousel .item .text-wrapper h6 {
+   font-size: 22px;
+   font-weight: 600;
+   color: #2f3ec5;
+}
+
+.owl-carousel .item .text-wrapper p {
+   font-size: 18px;
+   color: #1a1a1a;
+}
+
+ .navbar .navbar-brand-wrapper .navbar-brand-text {
+   font-size: 25px;
+   font-weight: 500;
+   margin: 0;
+   color: antiquewhite;
  }
