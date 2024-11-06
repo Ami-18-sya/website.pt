@@ -6,7 +6,7 @@
 }
 
 .navbar {
-   background-color: #0001d8;
+   background-color: #0001d8 !important;
 }
 
 #navbar-menu .nav-item .nav-link {
