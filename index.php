@@ -1,5 +1,6 @@
 <?php
 
+include "./confiig/database.php";
 include "./header.php"
 
 ?>
@@ -8,7 +9,7 @@ include "./header.php"
    <div class="container-fluid p-0">
 
       <?php
-
+      
       include "./navbar.php"
 
       ?>

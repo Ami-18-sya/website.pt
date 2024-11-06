@@ -4,7 +4,7 @@ $url_path = $_SERVER["REQUEST_URI"];
 
 ?>
 
-<nav class="navbar navbar-expand-lg bg-primary fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top">
    <div class="container-fluid px-4 py-1">
       <div class="navbar-brand-wrapper d-flex align-items-center justify-content-center">
          <img src="./assets/img/logogka-removebg-preview.png" alt=".." style="width: 100px;" class="me-2">
