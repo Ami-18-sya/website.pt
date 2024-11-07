@@ -5,7 +5,6 @@ include __DIR__ . "/services/home.php";
 include "./header.php";
 
 $features = get_features($connection);
-die;
 
 ?>
 
