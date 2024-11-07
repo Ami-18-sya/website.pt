@@ -43,7 +43,7 @@ die;
       </div>
       <div style="height: 300px;" class="d-flex justify-content-center align-items-center gap-5">
       <?php
-      while ($feature = $features){
+      foreach ($features as $key => $feature) {
          $html = "<div class='item d-flex justify-content-center align-items-center flex-column' data-aos='fade-up' data-aos-delay='0' data-aos-duration='1000'>";
          $html .= "<img sec='...' alt='ICON'>";
          $html .= "<h6>" . $feature['title'] . "<h6>";
