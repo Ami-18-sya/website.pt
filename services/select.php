@@ -1,5 +1,5 @@
 <?php
 
-include __DIR__ . "/../config /database.php";
-
-$query = mysqli_query($connection, "SELECT * FROM settings");
+function select($connection, $query){
+    return mysqli_query($connection, $query);
+}
