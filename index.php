@@ -2,10 +2,10 @@
 
 include __DIR__ . "/config/database.php";
 include __DIR__ . "/services/home.php";
-include "./header.php"
-
+include "./header.php";
 
 $features = get_features($connection);
+die;
 
 ?>
 
@@ -48,7 +48,7 @@ $features = get_features($connection);
          $html .= "<img sec='...' alt='ICON'>";
          $html .= "<h6>" . $feature['title'] . "<h6>";
          $html .= "<p>" . $feature['description'] . "<p>";
-         $html .="</div>;
+         $html .="</div>";
 
          echo $html;
       }
