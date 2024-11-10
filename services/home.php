@@ -7,6 +7,7 @@ include_once __DIR__ . "/../sources/home.php";
 function feature_seeder($connection, $datas) : void {
    $feature_count = mysqli_query($connection, "SELECT COUNT(*) AS count FROM home_feature");
    if ($feature_count) {
+      var_dump(mysqli_fetch_column($feature_count));
       $count = $feature_count->fetch_column();
       if ($count <= 0) {
          foreach ($datas as $key => $data) {
