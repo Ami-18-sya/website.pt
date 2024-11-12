@@ -9,7 +9,6 @@ $about = get_about($connection);
 $about_items = get_about_items($connection);
 
 
-die;
 ?>
 
 <body>

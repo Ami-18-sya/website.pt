@@ -42,7 +42,7 @@ function about_seeder($connection, $datas): void {
 
    $db_count_item = mysqli_query($connection, "SELECT COUNT(*) AS count FROM home_about_items");
    if ($db_count_item) {
-      $count = $db_count_item->fetch_assoc();
+      $count = $db_count_item->fetch_assoc()["count"];
       if ($count <= 0) {
          foreach ($datas['about_body_list'] as $key => $data) {
             mysqli_query($connection, "INSERT INTO home_about_items VALUES (NULL, '$data')");
