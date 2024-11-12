@@ -40,7 +40,7 @@ function about_seeder($connection, $datas): void {
    }
 }
 
-about_seeder($connection, $abaout_datas);
+about_seeder($connection, $about_datas);
 
 function get_about($connection) {
    return select($connection, "SELECT * FROM home_about")->fetch_assoc();
