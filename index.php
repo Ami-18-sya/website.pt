@@ -47,7 +47,7 @@ $about_items = get_about_items($connection);
       <?php
       foreach ($features as $key => $feature) {
          $html = "<div class='item d-flex justify-content-center align-items-center flex-column' data-aos='fade-up' data-aos-delay='0' data-aos-duration='1000'>";
-         $html .= "<img sec='/" . $feature['icon_path'] . "' alt='ICON'>";
+         $html .= "<img src='/" . $feature['icon_path'] . "' alt='ICON'>";
          $html .= "<h6>" . $feature['title'] . "<h6>";
          $html .= "<p>" . $feature['description'] . "<p>";
          $html .="</div>";
@@ -81,8 +81,8 @@ $about_items = get_about_items($connection);
                   ?>
                </ul>
             </div>
-            <div id="img-panel" class="col-6 px-5 py-2 rounded-circle" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
-               <img src="./background.jpg" alt="" class="w-100 h-100 rounded-circle">
+            <div id="img-panel" class="col-6 px-5 py-2 rounded-circle">
+               <img src="./<?= $about['about_img_path']?>" alt="" class="w-100 h-100 rounded-circle"  data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
             </div>
          </div>
       </div>
