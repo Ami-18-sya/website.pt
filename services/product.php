@@ -27,3 +27,9 @@ function product_seeder($connection, $config, $items): void {
    }
 }
 product_seeder($connection, $product_config_data, $product_datas);
+function get_product_config($connection) {
+   return select($connection, "SELECT * FROM product_config");
+}
+function get_product_items($connection) {
+   return select($connection, "SELECT * FROM product_items");
+}

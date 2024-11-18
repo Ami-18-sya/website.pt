@@ -7,10 +7,9 @@ include_once __DIR__ . "/../sources/home.php";
 function feature_seeder($connection, $datas) : void {
    $feature_count = mysqli_query($connection, "SELECT COUNT(*) AS count FROM home_feature");
    if ($feature_count) {
-      $count = $feature_count->fetch_assoc()["count"];
+      $count = $feature_count->fetch_assoc()['count'];
       if ($count <= 0) {
          foreach ($datas as $key => $data) {
-            var_dump(value: $datas);
             $title = $data['title'];
             $description = $data['description'];
             $icon_path = $data['icon_path'];
@@ -30,14 +29,14 @@ function get_features($connection) {
 function about_seeder($connection, $datas): void {
    $db_count = mysqli_query($connection, "SELECT COUNT(*) AS count FROM home_about");
    if ($db_count) {
-      $count = $db_count->fetch_assoc()["count"];
+      $count = $db_count->fetch_assoc()['count'];
       if ($count <= 0) {
          $about_title = $datas['about_title'];
          $about_text_title = $datas['about_text_title'];
          $about_text_paragraf_1 = $datas['about_text_paragraf_1'];
          $about_text_paragraf_2 = $datas['about_text_paragraf_2'];
          mysqli_query($connection, "INSERT INTO home_about VALUES (NULL, '$about_title', '$about_text_title', '$about_text_paragraf_1', '$about_text_paragraf_2')");
-      }
+      } 
    }
 
    $db_count_item = mysqli_query($connection, "SELECT COUNT(*) AS count FROM home_about_items");
@@ -51,21 +50,20 @@ function about_seeder($connection, $datas): void {
    }
 }
 
-
 about_seeder($connection, $about_datas);
 
 function get_about($connection) {
    return select($connection, "SELECT * FROM home_about")->fetch_assoc();
 }
 
-function get_about_items($connection){
+function get_about_items($connection) {
    return select($connection, "SELECT * FROM home_about_items");
 }
 
-function home_service_seeder($connection, $datas): void {
+function home_service_seeder($connection, $datas) {
    $db_count_conf = mysqli_query($connection, "SELECT COUNT(*) AS count FROM home_service_config");
    if ($db_count_conf) {
-      $count = $db_count_conf->fetch_assoc()["count"]; 
+      $count = $db_count_conf->fetch_assoc()['count']; 
       if ($count <= 0) {
          $title = $datas['service_title'];
          $subt = $datas['service_subtitle'];
@@ -74,9 +72,9 @@ function home_service_seeder($connection, $datas): void {
    }
    $db_count = mysqli_query($connection, "SELECT COUNT(*) AS count FROM home_service_items");
    if ($db_count) {
-      $count = $db_count->fetch_assoc()["count"]; 
+      $count = $db_count->fetch_assoc()['count']; 
       if ($count <= 0) {
-         foreach ($datas ['service_items'] as $key => $data) {
+         foreach ($datas['service_items'] as $key => $data) {
             $icon = $data['icon_path'];
             $title = $data['title'];
             $desc = $data['description'];
@@ -96,4 +94,21 @@ function get_service_items($connection) {
    return select($connection, "SELECT * FROM home_service_items");
 }
 
-?>
+function slides_seeder($connection, $datas) {
+   $db_count = mysqli_query($connection, "SELECT COUNT(*) as count FROM home_slider");
+   if ($db_count) {
+      $count = $db_count->fetch_assoc()["count"];
+      if ($count <= 0) {
+         foreach ($datas as $key => $data) {
+            $img = $data["img_path"];
+            mysqli_query($connection,"INSERT INTO home_slider VALUES (NULL, '$img')");
+         }
+      }
+   }
+}
+
+slides_seeder($connection, $home_slide_datas);
+
+function get_slides($connetion) {
+   return select($connetion, "SELECT * FROM home_slider");
+}
