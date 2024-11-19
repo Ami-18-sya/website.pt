@@ -20,7 +20,7 @@ $items = get_documentation_items($connection);
          <img src="./background.jpg" alt="" width="100%" style="height: 100%;" class="position-absolute">
          <div class="position-relative w-25 d-flex justify-content-center align-items-center flex-column">
             <h2 class="border-bottom border-white text-center text-white fs-1 w-100 fw-semibold" style="text-shadow: 1px 1px 1px #1a1a1a;"><?= $config['page_title'] ?></h2>
-            <a class="btn btn-primary" style="width: fit-content;" href="#product-section"><?= $config['page_button_text'] ?></a>
+            <a class="btn btn-primary text-uppercase" style="width: fit-content;" href="#product-section"><?= $config['page_button_text'] ?></a>
          </div>
       </div>
       <div id="product-section" class="py-4 mb-5">
