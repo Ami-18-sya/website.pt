@@ -7,20 +7,20 @@ $feature_datas = [
       "icon_path" => "assets/upload/home_feature/1.svg",
    ],
    [
-      "title" => "We deliver Quality",
+      "title" => "We Deliver Quality",
       "description" => "Quality is our services priority",
       "icon_path" => "assets/upload/home_feature/2.svg",
    ],
    [
-      "title" => "Competitive",
-      "description" => "We provide competitive price, schedule and method",
+      "title" => "Trustworthy",
+      "description" => "We provide reliable quality, schedules and methods",
       "icon_path" => "assets/upload/home_feature/3.svg", 
    ],
 ];
 
 $about_datas = [
    "about_title" => "ABOUT US",
-   "about_text_title" => "Who we are",
+   "about_text_title" => "Apa Itu PT.GKA?",
    "about_text_paragraf_1" => "PT. GEMILANG KARYA AGRI adalah anak perusahaan dari PT. Gemilang Karya Mandiri. Kami perusahaan yang bergerak dalam industri peternakan ayam potong. Peternakan kami memulai usaha awal 2016 yang diproduksi dari kandang sendiri dengan sistem kandang modern close house. Pada Awal usaha kami memiliki satu buah kandang dengan 3 lantai yang berkapasitas 25.000 / lantai. Kapasitas produksi bisa mencapai 75.000 ekor dalam 1 kandang.",
    "about_text_paragraf_2" => "Pada Tahun 2017, Kami melakukan ekspansi dengan melakukan penambahan kandang untuk memperbesar kapasitas produksi. Saat ini kapasitas produksi ayam kami mencapai 350,000 ekor.
    Pada Tahun 2018 , kami melakukan penambahan unit trading ayam hidup dan pemotongan ayam fresh di salah satu unit kami di Tanggerang. Dengan brand Rumah ayam Halal
