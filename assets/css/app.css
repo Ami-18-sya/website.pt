@@ -78,3 +78,17 @@
    margin: 0;
    color: antiquewhite;
  }
+
+ #footer {
+   background-color: #3838c5 !important;
+}
+
+#visi-misi-section #visi {
+   background-color: #3838c5 !important;
+   color: white;
+}
+
+#visi-misi-section #misi {
+   background-color: rgb(255, 255, 30) !important;
+   color: black;
+}

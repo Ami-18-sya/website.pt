@@ -78,6 +78,51 @@ $service_items = get_service_items($connection);
          </div>
       </div>
    </div>
+   <div id="visi-misi-section" class="py-4">
+      <div class="container-fluid" id="visi">
+         <div class="container">
+            <div class="row pb-4 pt-2">
+               <div class="container">
+                  <div class="col-12 d-flex justify-content-center">
+                     <h5 class="fs-2 text-center pb-2 px-4 fw-medium border-1 border-bottom border-black" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">Visi Kami</h5>
+                  </div>
+                  <p class="fs-6 text-center">Menjadi Perusahaan Agri Bisnis yang Terintegrasi</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid" id="misi">
+         <div class="container">
+            <div class="row pb-4 pt-2">
+               <div class="col-12 d-flex justify-content-center">
+                  <h5 class="fs-2 text-center pb-2 px-4 fw-medium border-1 border-bottom border-black" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">Misi Kami</h5>
+               </div>
+               <div class="col-12 row row-gap-4 justify-content-center">
+                  <div class="col-4">
+                     <h5 class="text-center fw-medium">1</h5>
+                     <p class="text-center">Meningkatkan Kapasitas SDM yang berkualitas</p>
+                  </div>
+                  <div class="col-4">
+                     <h5 class="text-center fw-medium">2</h5>
+                     <p class="text-center">Meningkatkan Produktivitas untuk membuka peluang diberbagai sektor Agri Bisnis</p>
+                  </div>
+                  <div class="col-4">
+                     <h5 class="text-center fw-medium">3</h5>
+                     <p class="text-center">Memperluas area pemasaran</p>
+                  </div>
+                  <div class="col-4">
+                     <h5 class="text-center fw-medium">4</h5>
+                     <p class="text-center">Memberikan Harga yang Kompetitif untuk semua customer</p>
+                  </div>
+                  <div class="col-4">
+                     <h5 class="text-center fw-medium">5</h5>
+                     <p class="text-center">5. Meningkatkan Pelayanan untuk memberikan Kepuasan Pelanggan</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
    <div id="service-section" class="py-4">
       <div class="container px-5">
          <div id="service-title" class="row">

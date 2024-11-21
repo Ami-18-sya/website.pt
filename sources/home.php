@@ -66,9 +66,9 @@ $home_slide_datas = [
       "img_path" => "assets/upload/home_slides/1.jpg",
    ],
    [
-      "img_path" => "assets/upload/home_slides/1.jpg",
+      "img_path" => "assets/upload/home_slides/2.jpg",
    ],
    [
-      "img_path" => "assets/upload/home_slides/1.jpg",
+      "img_path" => "assets/upload/home_slides/3.jpg",
    ]
 ];
