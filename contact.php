@@ -90,9 +90,9 @@ $config  = get_contact_config($connection);
                      <p><?= $config['map_place_address'] ?></p>
                   </div>
                   <div class="col-12">
-                     <p>example@example.com</p>
-                     <p>Telp. 0254 574000, 574400</p>
-                     <p>Fax. 0254 571400</p>
+                     <p>yanti@pt-gka.com</p>
+                     <p>Telp. (0254) 575 3355</p>
+                     <p>Fax. (0254) 849 5241</p>
                   </div>
                </div>
             </div>

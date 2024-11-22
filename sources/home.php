@@ -41,22 +41,22 @@ $about_datas = [
 
 $service_datas = [
    "service_title" => "WHAT WE OFFER",
-   "service_subtitle" => "WE CAN OFFER OUR CAPABILITY, TEAM WORK AND EXPERIENCES TO MANAGE ANY CONSTRUCTION WORKS FOR CIVIL, STRUCTURE, MECHANICAL, PIPING, TANK AND SOME ELECTRICAL WORKS",
+   "service_subtitle" => "KAMI DAPAT MENAWARKAN KEMAMPUAN, KERJA TIM DAN PENGALAMAN UNTUK MENGELOLA PETERNAKAN PRODUKSI KAMI SEPERTI PEMELIHARAAN,PENGELOLAAN,DAN PEMANENAN",
    "service_items" => [
       [
          "icon_path" => "assets/upload/home_service/1.jpg",
-         "title" => "Fabrication",
-         "description" => "We have a workshop for fabrication with best production capacity. We can work on steel fabrication, plates and tanks",
+         "title" => "Maintenance",
+         "description" => "Kami memiliki peternakan ayam dengan kapasitas produksi terbaik. Kami dapat memelihara ayam kami dengan baik",
       ],
       [
-         "icon_path" => "assets/upload/home_service/1.jpg",
-         "title" => "Fabrication",
-         "description" => "We have a workshop for fabrication with best production capacity. We can work on steel fabrication, plates and tanks",
+         "icon_path" => "assets/upload/home_service/2.jpg",
+         "title" => "Management",
+         "description" => "Kami memiliki peternakan ayam dengan kapasitas produksi terbaik. Kami dapat mengelola ayam kami dengan baik",
       ],
       [
-         "icon_path" => "assets/upload/home_service/1.jpg",
-         "title" => "Fabrication",
-         "description" => "We have a workshop for fabrication with best production capacity. We can work on steel fabrication, plates and tanks",
+         "icon_path" => "assets/upload/home_service/3.jpg",
+         "title" => "Harvesting",
+         "description" => "Kami memiliki peternakan ayam dengan kapasitas produksi terbaik. Kami dapat memanen ayam kami dengan baik",
       ]
    ]
 ];
