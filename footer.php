@@ -3,9 +3,9 @@
         <div class="row py-4 justify-content-center">
             <div class="col-5 d-flex justify-content-center flex-column align-items-start">
                 <h5>PT. Gemilang Karya Agri</h5>
-                <span>Jl. Boulevard Blok A1 No.43 Komplek Taman Cilegon Indah, Kel.Sukmajaya, Kec.Jombang Kota Cilegon 42422</span>
-                <span>Email : pt.gka@gmail.com</span>
-                <span>Telepon : 08123456789</span>
+                <span>Jl. Raya Bojonegara No.99, Walikukun, Terate, Kec. Kramatwatu, Kabupaten Serang, Banten 42161</span>
+                <span>Email : yanti@pt-gka.com</span>
+                <span>Telepon : (0254) 575 3355</span>
             </div>
             <div class="col-2 d-flex justify-content-center flex-column align-items-start">
                 <h5>Web Service</h5>
