@@ -5,7 +5,7 @@ include_once __DIR__ . "/../sources/contact.php";
 
 function contact_seeder($connection, $config): void
 {
-   $db = mysqli_query($connection, "SELECT COUNT(*) FROM contact_config");
+   $db = mysqli_query($connection, "SELECT COUNT(*) as count FROM contact_config");
    if ($db) {
       $count = mysqli_fetch_assoc($db)["count"];
       if ($count <= 0) {
