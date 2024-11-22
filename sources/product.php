@@ -29,27 +29,10 @@ $product_datas = [
         3.000box/minggu ke beberapa peternak mandirian",
     ],
     [
-        "img_path"=> "assets/upload/products/1.jpg",
+        "img_path"=> "assets/upload/products/4.jpg",
         "title"=> "TRADING BONLESS",
         "description"=> "Penjualan trading Bonless baik BLP ataupun <br>
         BLD sebanyak 9.000kg/minggu",
-    ],
-    [
-        "img_path"=> "assets/upload/products/1.jpg",
-        "title"=> "TRADING BEBEK",
-        "description"=> "Penjualan trading bebek afkir, hibrida sebanyak <br>
-        3.000ekor/hr kebeberapa restoran di Jabodetabek",
-    ],
-    [
-        "img_path"=> "assets/upload/products/1.jpg",
-        "title"=> "TRADING AYAM KAMPUNG",
-        "description"=> "Penjualan trading Ayam Kampung sebanyak <br>
-        3.000ekor/hr ke beberapa restoran di Jabodetabek",
-    ],
-    [
-        "img_path"=> "assets/upload/products/7.jpg",
-        "title"=> "TRADING SEMBAKO",
-        "description"=> "Penjualan trading sembako berupa beras di area Jabodetabek",
     ],
 ];
 
