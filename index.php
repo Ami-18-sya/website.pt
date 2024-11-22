@@ -126,11 +126,11 @@ $service_items = get_service_items($connection);
    <div id="service-section" class="py-4">
       <div class="container px-5">
          <div id="service-title" class="row">
-            <div class="col-12 d-flex justify-content-center mb-5">
+            <div class="col-12 d-flex justify-content-center mb-2">
                <h5 class="fs-3 border-1 border-bottom border-black pb-3 px-4 fw-medium" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000"><?= $service['title'] ?></h5>
             </div>
          </div>
-         <div class="row px-5">
+         <div class="row px-2">
             <div class="col-12">
                <p class="text-center" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000"><?= $service['subtitle'] ?></p>
             </div>

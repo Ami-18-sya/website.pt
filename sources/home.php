@@ -40,23 +40,23 @@ $about_datas = [
 ];
 
 $service_datas = [
-   "service_title" => "WHAT WE OFFER",
-   "service_subtitle" => "KAMI DAPAT MENAWARKAN KEMAMPUAN, KERJA TIM DAN PENGALAMAN UNTUK MENGELOLA PETERNAKAN PRODUKSI KAMI SEPERTI PEMELIHARAAN,PENGELOLAAN,DAN PEMANENAN",
+   "service_title" => "SERVICES",
+   "service_subtitle" => "KAMI DAPAT MENAWARKAN KEMAMPUAN, KERJA TIM DAN PENGALAMAN UNTUK MENGELOLA PETERNAKAN PRODUKSI KAMI",
    "service_items" => [
       [
          "icon_path" => "assets/upload/home_service/1.jpg",
-         "title" => "Maintenance",
-         "description" => "Kami memiliki peternakan ayam dengan kapasitas produksi terbaik. Kami dapat memelihara ayam kami dengan baik",
+         "title" => "Hygienic Products",
+         "description" => "Kami menjaga kualitas peternakan kami secara higienis, sehingga setiap mobila pengangkut ayam keluar masuk akan disemprotkan dengan desinfektan.",
       ],
       [
          "icon_path" => "assets/upload/home_service/2.jpg",
-         "title" => "Management",
-         "description" => "Kami memiliki peternakan ayam dengan kapasitas produksi terbaik. Kami dapat mengelola ayam kami dengan baik",
+         "title" => "Modern Farm",
+         "description" => "Peternakan kami menggunakan sistem modern untuk menghasilkan produk yang jumlahnya banyak, dan proses panen lebih cepat dengan hasil yang berkualitas.",
       ],
       [
          "icon_path" => "assets/upload/home_service/3.jpg",
-         "title" => "Harvesting",
-         "description" => "Kami memiliki peternakan ayam dengan kapasitas produksi terbaik. Kami dapat memanen ayam kami dengan baik",
+         "title" => "Good Services",
+         "description" => "Proses penimbangan ayam yang dilakukan dengan melibatkan pembeli sehingga tidak ada kecurangan dalam data bobot ayam yang kami jual.",
       ]
    ]
 ];
