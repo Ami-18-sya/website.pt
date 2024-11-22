@@ -1,6 +1,6 @@
 <?php
 
-$contact_config_data = [
+$contact_config_datas = [
    "page_title" => "Kontak Kami",
    "page_button_text" => "Help",
    "section_title" => "Kontak kami",

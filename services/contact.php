@@ -23,7 +23,7 @@ function contact_seeder($connection, $config): void
    }
 }
 
-contact_seeder($connection, $contact_config_data);
+contact_seeder($connection, $contact_config_datas);
 
 
 function get_contact_config($connection) {
