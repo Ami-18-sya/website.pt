@@ -45,7 +45,7 @@ $service_items = get_service_items($connection);
             </button>
          </div>
       </div>
-      <div style="height: 300px;" class="d-flex justify-content-center align-items-center gap-5 px-5">
+      <div style="height: 300px;" style="background-color:blue;" class="d-flex justify-content-center align-items-center gap-5 px-5">
          <?php
          foreach ($features as $key => $feature) {
             $html = "<div class='item d-flex justify-content-center align-items-center flex-column' data-aos='fade-up' data-aos-delay='0' data-aos-duration='1000'>";

@@ -72,14 +72,18 @@
    color: #1a1a1a;
 }
 
- .navbar .navbar-brand-wrapper .navbar-brand-text {
+.navbar .navbar-brand-wrapper .navbar-brand-text {
    font-size: 25px;
    font-weight: 500;
    margin: 0;
    color: antiquewhite;
- }
+}
 
- #footer {
+#feature {
+   background-color: #3838c5 !important;
+}
+
+#footer {
    background-color: #3838c5 !important;
 }
 
