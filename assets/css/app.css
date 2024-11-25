@@ -6,7 +6,13 @@
 }
 
 .navbar {
-   background-color: #0001d8 !important;
+   background-color: #0001d8;
+}
+
+.navbar .navbar-brand-wrapper .navbar-brand-text {
+   font-size: 22px;
+   font-weight: 500;
+   margin: 0;
 }
 
 #navbar-menu .nav-item .nav-link {
@@ -72,19 +78,9 @@
    color: #1a1a1a;
 }
 
-.navbar .navbar-brand-wrapper .navbar-brand-text {
-   font-size: 25px;
-   font-weight: 500;
-   margin: 0;
-   color: antiquewhite;
-}
-
-#feature {
+#feature-wrapper {
    background-color: #3838c5 !important;
-}
-
-#footer {
-   background-color: #3838c5 !important;
+   color: wheat;
 }
 
 #visi-misi-section #visi {
@@ -95,4 +91,12 @@
 #visi-misi-section #misi {
    background-color: rgb(255, 255, 30) !important;
    color: black;
+}
+
+#product-list-wrapper h3 {
+   text-shadow: 1px 1px 1px #1a1a1a;
+}
+
+#footer {
+   background-color: #3838c5 !important;
 }

@@ -5,7 +5,6 @@ $product_config_data = [
     "page_button_text"=> "Selengkapnya",
     "section_title"=> "Memberikan Produk Terbaik",
     "section_description"=> "Kami perusahaan yang bergerak dalam industri peternakan ayam potong, <br>
-    Kami melakukan perluasan pasar kembali untuk unit usaha trading kami yaitu trading bebek, ayam kampung serta DOC. <br>
     Kami terus meningkatkan upaya untuk memberikan produksi dalam jumlah yang banyak, dengan waktu yang cepat dan memberikan kepuasan kepada pelanggan terutama dalam hal kualitas.",
 ];
 
