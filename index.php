@@ -1,15 +1,10 @@
 <?php
 
-include __DIR__ . "/config/database.php";
+include __DIR__ . "/config/database_resto.php";
 include __DIR__ . "/services/home.php";
 include "./header.php";
 
-$slides = get_slides($connection);
-$features = get_features($connection);
-$about = get_about($connection);
-$about_items = get_about_items($connection);
-$service = get_service_config($connection);
-$service_items = get_service_items($connection);
+
 $visi = get_visi($connection);
 $misi = get_misi($connection);
 $misi_items = get_misi_items($connection);
